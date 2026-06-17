@@ -2,8 +2,8 @@
 
 Distillation of DINOv2 ViT-G into a small student (ViT-S/14 or ViT-T/14), with
 an optional curriculum block-skipping schedule. The student is always built
-explicitly at `img_size=224` (the "fair" setup) and distilled against a single
-teacher target block (`--last-n 1`).
+explicitly at `img_size=224` and distilled against a single
+teacher target block.
 
 ## Layout
 
