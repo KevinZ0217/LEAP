@@ -1,0 +1,26 @@
+# LEAP dependencies (pinned to known-good versions).
+# Python 3.9+.
+
+# --- Core deep learning ---
+torch==2.8.0
+torchvision==0.23.0
+timm==1.0.24
+
+# --- Distillation framework ---
+# lightly-train pulls in pytorch-lightning; both are imported directly
+# (lightly_train.* and lightly.utils.scheduler).
+lightly-train==0.14.1
+lightly==1.5.22
+pytorch-lightning==2.6.0
+
+# --- Numerics / data / utils ---
+numpy==2.0.2
+Pillow==11.3.0
+tqdm==4.65.2
+scipy==1.13.1
+
+# --- Optional ---
+# Only needed if you run instance retrieval with --from-hf (Hugging Face
+# galilai-group/revisitop). The default --from-official path does NOT need it,
+# and it must be <3 to work with the legacy dataset script.
+# datasets<3
