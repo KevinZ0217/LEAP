@@ -1,9 +1,7 @@
-# LEAP
+# LEAP: Layer-skipping Efficiency via Adaptive Progression for Vision Transformer Distillation
 
 Distillation of DINOv2 ViT-G into a small student (ViT-S/14 or ViT-T/14), with
-an optional curriculum block-skipping schedule. The student is always built
-explicitly at `img_size=224` and distilled against a single
-teacher target block.
+an optional curriculum block-skipping schedule.
 
 ## Layout
 
