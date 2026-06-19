@@ -1,6 +1,7 @@
 # LEAP: Layer-skipping Efficiency via Adaptive Progression for Vision Transformer Distillation
 
 [Project Page](https://kevinz0217.github.io/LEAP_page/)
+
 [Paper](https://arxiv.org/abs/2606.19483)
 ## Introduction
 
