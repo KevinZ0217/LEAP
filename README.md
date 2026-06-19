@@ -1,6 +1,7 @@
 # LEAP: Layer-skipping Efficiency via Adaptive Progression for Vision Transformer Distillation
 
 [Project Page](https://kevinz0217.github.io/LEAP_page/)
+[Paper](https://arxiv.org/abs/2606.19483)
 ## Introduction
 
 Vision Foundation Models (VFMs) with Vision Transformer (ViT) backbones, such as DINOv2, have become essential for downstream tasks like object recognition and instance retrieval. The immense computational requirements of large teachers often necessitate distillation into compact students for edge deployment. Feature-based knowledge distillation (KD) is a strong paradigm for ViTs, but a small student can struggle to imitate a large teacher's complex feature maps in a single step due to the teacher-student capacity gap.
