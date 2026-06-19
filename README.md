@@ -170,3 +170,13 @@ If the data is already prepared locally, pass `FROM_PREPARE=0` to skip the downl
 Our codebase builds on [LightlyTrain](https://github.com/lightly-ai/lightly-train) for distillation training and [DINOv2](https://github.com/facebookresearch/dinov2) as the teacher backbone. Instance retrieval evaluation uses the [Revisitop](https://github.com/AndreBiedermann/Revisitop) benchmark protocol.
 
 If you find this repo helpful, please consider giving it a star ⭐.
+
+## Citation
+```bibtex
+@article{leap2026,
+  title={LEAP: Layer-skipping Efficiency via Adaptive Progression for Vision Transformer Distillation},
+  author={Zhang, Jiaqi and Lee, Ashton and Wong, Anthony and Zou, John and BuGhanem, Sami and Balestriero, Randall},
+  journal={arXiv preprint arXiv:2606.19483},
+  year={2026}
+}
+```
